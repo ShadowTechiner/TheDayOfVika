@@ -1,0 +1,96 @@
+@font-face {
+    font-family: HappyMonkey;
+    src: url(fonts/HappyMonkey.ttf);
+    font-family: Retronome;
+    src: url(fonts/RetronomeRegular.ttf);
+    font-family: Jingleberry;
+    src: url(fonts/Jingleberry.otf);
+    font-family: Rumpelstiltskin;
+    src: url(fonts/Rumpelstiltskin.ttf);
+}
+
+body{
+    text-align: center;
+    font-family: "Rumpelstiltskin";
+    background: linear-gradient(#a2d2ff,#efb0c9);
+    color: #ffffff;
+    text-shadow: 0 0 2px black;
+    font-size: 20px;
+}
+
+#introPhrase{
+    font-size: 50px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainPhoto{
+    width: 400px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+#bday-age{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#bday-date{
+    margin: 0px;
+    background-color: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-cover{
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+#gift-happy:hover{
+    background-image: url("images/giphy.gif");
+}
+
+#gift-hot:hover{
+    background-image: url("images/hot.gif");
+}
+
+#gift-husband:hover{
+    background-image: url("images/husband.gif");
+}
+
+#gift-party:hover{
+    background-image: url("images/party.gif");
+}
+
+#gift-cheers{
+    height: 200px;
+}
+
+#gift-cheers:hover{
+    background-image: url("images/cheers.gif");
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0px;
+}
